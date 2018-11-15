@@ -1,0 +1,140 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    flex: 0;
+}
+.navContainer{
+    height: 80px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    display: flex;
+}
+.navLinks{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+.navBarName{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+#headerName{
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: -1px;
+    color: #ffffff;
+}
+.links{
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    color: #777777;
+}
+a:active{
+    background-color: #dbdbdb;
+}
+.aboutMe{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+#aboutMeContainer{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 960px;
+    height: fit-content;
+    justify-content: center;
+}
+#profilePicture{
+    margin-right: 10px;
+    padding-top: 4px;
+}
+#aboutTitle{
+    color: #4aaaa5;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+#aboutParagraph{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 40px;
+    color: #777777;
+}
+.contactFormDiv{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+#formContainer{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 960px;
+    height: fit-content;
+}
+#innerFormDiv{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#textarea{
+    height: 250px;
+}
+#emailInput,
+#nameInput {
+    height: 25px;
+}
+#submitButton{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+    height: 20px;
+    width: 70px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#footer{
+    background-color: #3f3f3f;
+    text-align: center;
+    line-height: 70px;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+}
+#porfolioDiv{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+#porfolioDivContent{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 960px;
+    height: fit-content;
+    justify-content: center;
+}
+.portfolioImages{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding-right: 50px;
+}
+#stuff{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
