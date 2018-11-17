@@ -106,6 +106,17 @@ a:active{
     padding: 20px;
     width: 960px;
     height: fit-content;
+    justify-content: center;
+}
+@media screen and (max-width: 440px){
+    #formContainer{
+        background-color: #ffffff;
+        padding: 20px;
+        width: 210px;
+        flex: 1;
+        height: fit-content;
+        justify-content: center;
+    }
 }
 #innerFormDiv{
     display: flex;
@@ -119,6 +130,7 @@ a:active{
 #emailInput,
 #nameInput {
     height: 25px;
+    width: 98%;
 }
 #submitButton{
     background-color: #4aaaa5;
@@ -129,6 +141,9 @@ a:active{
     width: 70px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+#formInput{
+    flex: 1;
+}
 #footer{
     background-color: #3f3f3f;
     text-align: center;
@@ -138,8 +153,8 @@ a:active{
 }
 #porfolioDiv{
     display: flex;
-    justify-content: center;
     flex: 1;
+    justify-content: center;
 }
 #porfolioDivContent{
     background-color: #ffffff;
@@ -148,6 +163,16 @@ a:active{
     width: 960px;
     height: fit-content;
     justify-content: center;
+}
+@media screen and (max-width: 347px){
+    #porfolioDivContent{
+        background-color: #ffffff;
+        padding: 20px;
+        width: 210px;
+        flex: 1;
+        height: fit-content;
+        justify-content: center;
+    }
 }
 .portfolioImages{
     height: 200px;
