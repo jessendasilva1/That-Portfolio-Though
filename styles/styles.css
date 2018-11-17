@@ -29,6 +29,29 @@ nav{
     align-items: flex-end;
     padding-left: 20px;
 }
+@media screen and (max-width: 388px){
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        flex: 0;
+        height: 130px;
+    }
+    .navLinks{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+    .navBarName{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+}
 #headerName{
     background-color: #4aaaa5;
     padding: 20px;
